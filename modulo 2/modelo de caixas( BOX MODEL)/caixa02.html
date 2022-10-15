@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightslategray;
+        }
+article > aside{
+    background-color: rgb(69, 75, 82);
+}
+
+nav{
+    background-color: rgb(78, 86, 94);
+    padding: 3px;
+    text-align: center;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+footer > p{
+    margin: 1px;
+}
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Incicio</a>
+        <a href="#">Produtos</a>
+        <a href="#">contato</a>
+        <a href="#">Quem somos</a>
+        <a href="#">favoritos</a>
+</nav>
+</header>
+
+<main>
+    <section id="assuntos"></section>
+    <p>Esportes, Politica e Tecnologia</p>
+    <br>
+    <section id="noticias">
+        <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, inventore! Cumque deleniti ullam esse tempore placeat natus ipsam unde, iure adipisci repudiandae consequuntur fugiat rem atque officiis repellendus culpa voluptatem.</p>
+
+            <aside>
+                <p>artigo escrito po José da Silva</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </section>
+</main>
+<footer>
+    <p>Desenvolvido por DevGabriel</p>
+</footer>
+    
+</body>
+</html>
